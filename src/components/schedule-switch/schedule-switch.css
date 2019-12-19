@@ -1,0 +1,20 @@
+.header_schedule {
+    display:flex;
+    margin: 15px;
+}
+
+.header_schedule i{
+    margin: 0 5px;
+    font-size: 25px;
+    color: #2B7A78;
+}
+.header_schedule i:hover{
+    color: #17252A;
+}
+.schedule_date {
+    width: 50%;
+}
+.schedule_week {
+    width: 50%;
+    text-align: right;
+}

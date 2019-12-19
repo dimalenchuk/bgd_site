@@ -1,0 +1,11 @@
+.stud_search{
+    margin-left: 35px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #2B7A78;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    padding-left: 10px;
+}
+.stud_search::placeholder{
+    color: #2B7A78;
+}

@@ -1,0 +1,11 @@
+.schedule_content {
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #DEF2F1;
+    padding: 10px;
+    margin: 70px 20px 20px 40px;
+    border: 1px solid #2B7A78;
+    height: auto;
+
+}

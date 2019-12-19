@@ -1,0 +1,75 @@
+.schedule_list {
+    width: 10%;
+    text-align: center;
+}
+
+.schedule {
+    overflow: hidden;
+    table-layout: fixed;
+    width: 100%;
+}
+.schedule_list *{
+    border-bottom: 3px solid #17252A;
+}
+
+.schedule td,th {
+    width: 10%;
+    overflow-wrap: break-spaces;
+    border: 1px solid #2B7A78;
+    padding: 8px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #17252A;
+}
+
+@media all and (max-width: 800px) {
+    .schedule thead {
+        display: none;
+    }
+    .schedule tr td {
+        width: 100%;
+        display: block;
+        position: relative;
+        line-height: 24px;
+    }
+    .schedule tr td:before {
+        position: absolute;
+        left: 5px;
+
+    }
+    .schedule th{
+        vertical-align: middle;
+        overflow-wrap: normal;
+        width: 100px;
+        align-self: center;
+    }
+    .schedule td{
+        vertical-align: middle;
+    }
+    .schedule tr td:nth-of-type(1):before {
+        content: '1';
+        display: block;
+        height: auto;
+        margin:
+    }.schedule tr td:nth-of-type(2):before {
+         content: '2';
+         display: block;
+         height: auto;
+         margin:
+     }.schedule tr td:nth-of-type(3):before {
+          content: '3';
+          display: block;
+          height: auto;
+          margin:
+      }.schedule tr td:nth-of-type(4):before {
+           content: '4';
+           display: block;
+           height: auto;
+           margin:
+       }.schedule tr td:nth-of-type(5):before {
+            content: '5';
+            display: block;
+            height: auto;
+            margin:
+        }
+}

@@ -1,0 +1,92 @@
+.login {
+    background: url(../../static/bjdbi.png) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vmin;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 200px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+.journal_name {
+    display:flex;
+    color: #3AAFA9;
+    font-size: 90px;
+}
+.journal_name p:nth-of-type(1){
+    background-color: #3AAFA9;
+    color: #17252A;
+    margin-left: 5px;
+}
+.journal_name p{
+    border-radius: 10px;
+    background-color: #17252A;
+    margin-left: 5px;
+}
+.for_whom {
+    color: #3AAFA9;
+    font-size: 30px;
+    background-color: #17252A;
+    margin-top: 5px;
+    padding: 0 10px 5px 10px;
+    border-radius: 10px;
+}
+.lp_inputs {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lp_inputs input,button{
+    width: 100%;
+    border: 0;
+    background-color: #DEF2F1;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.search_button {
+    width: auto;
+}
+.lp_inputs input::placeholder {
+    color: #182628;
+    font-weight: 700;
+}
+.lp_inputs button {
+    background-color: #3AAFA9;
+    transition: background-color 0.2s linear;
+}
+.lp_inputs button:hover {
+    cursor: pointer;
+    background-color: #2B7A78;
+}
+
+.remind_pw {
+    display:block;
+    text-decoration: none;
+    color: #DEF2F1;
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 65%;
+    transition: color 0.2s linear;
+}
+.remind_pw:hover{
+    color: #3AAFA9;
+}
+
+body {
+    height: 100%;
+}
