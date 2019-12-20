@@ -50,8 +50,7 @@ export default class StudentService {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': 'Basic '+btoa('username:password'),
-                }
+                    'Authorization':'JWT ' + localStorage.getItem('token'),                }
             });
         if (res.status===401) {
             localStorage.removeItem('token')

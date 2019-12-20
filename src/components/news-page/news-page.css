@@ -4,3 +4,11 @@
     display:flex;
     height: 100%;
 }
+
+
+@media all and (max-width: 800px) {
+    .main_content {
+        flex-direction: column;
+    }
+
+}

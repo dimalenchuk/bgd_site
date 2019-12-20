@@ -3,7 +3,7 @@ import './login-page.css'
 
 class LoginUser extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             password : ''
         }
@@ -12,8 +12,10 @@ class LoginUser extends Component {
         this.setState({
             password : e.target.value
         })
-    }
+    };
     render() {
+        const { history } = this.props;
+        console.log(this.props);
         return (
             <div className="login">
                     <div className="intro_block">
@@ -35,7 +37,6 @@ class LoginUser extends Component {
                         password : this.state.password
                     })} >
                         <div>
-                            <label htmlFor="username" >Username</label>
                             <input type="text"
                                    onChange={this.props.handleLoginChange}
                                    value={this.props.username}
@@ -44,7 +45,6 @@ class LoginUser extends Component {
                                    placeholder="Username" />
                         </div>
                         <div>
-                            <label htmlFor="password" >Password</label>
                             <input type="password"
                                    onChange={this.handlePasswordChange}
                                    value={this.state.password}

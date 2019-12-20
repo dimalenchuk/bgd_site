@@ -27,12 +27,12 @@ class StudentList extends Component {
                     <div className="stud_info" key={id}>
                         <img className="stud_photo"
                              src="https://carlisletheacarlisletheatre.org/images/person-icon-png-android-9.png" alt=""/>
-                        <p className="stud_name"><i className="icons_info fa fa-user-tag"></i>{first_name} {last_name}</p>
-                        <p className="group"><i className="icons_info fa fa-users"></i>{group_id}</p>
-                        <p className="med_mark"><i className="icons_info fa fa-poll"></i>1</p>
-                        <p className="visits"><i className="icons_info fa fa-door-open"></i>100%</p>
-                        <p className="stud_mail"><i className="icons_info fa fa-envelope"></i>{e_mail}</p>
-                        <p className="stud_phone"><i className="icons_info fa fa-phone"></i>{phone_number}</p>
+                        <p className="stud_name"><i className="icons_info fa fa-user"></i>  {first_name} {last_name}</p>
+                        <p className="group"><i className="icons_info fa fa-users"></i>  {group_id}</p>
+                        <p className="med_mark"><i className="icons_info fa fa-pencil"></i>  5</p>
+                        <p className="visits"><i className="icons_info fa fa-eye"></i>  100%</p>
+                        <p className="stud_mail"><i className="icons_info fa fa-envelope"></i>  {e_mail}</p>
+                        <p className="stud_phone"><i className="icons_info fa fa-phone"></i>  {phone_number}</p>
                     </div>
                 );
             });

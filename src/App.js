@@ -55,7 +55,7 @@ class App extends Component {
         fetch(base_url + 'token-auth/', {
             method : 'POST',
             headers: {
-                'Authorization':'Bearer ' + localStorage.getItem('token'),
+                'Authorization':'JWT ' + localStorage.getItem('token'),
                 'Content-Type': 'application/json',
             },
 

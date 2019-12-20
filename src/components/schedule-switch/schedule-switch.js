@@ -5,8 +5,12 @@ class ScheduleSwitch extends Component {
     render() {
         return (
             <div className="header_schedule">
-                <p className="schedule_date">Day, date</p>
-                <p className="schedule_week"><i className="far fa-arrow-alt-circle-left"></i>04.01-04.01<i className="far fa-arrow-alt-circle-right"></i></p>
+                <p className="schedule_date"></p>
+                <div className="schedule_week">
+                    <i className="arrows fa fa-arrow-left"></i>
+                    <p>16.12.19 - 20.12.19</p>
+                    <i className="arrows fa fa-arrow-right"></i>
+                </div>
             </div>
         )
     }

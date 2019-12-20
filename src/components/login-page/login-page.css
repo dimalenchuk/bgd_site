@@ -90,3 +90,8 @@
 body {
     height: 100%;
 }
+@media all and (max-width: 800px) {
+    .login {
+        flex-direction: column;
+    }
+}
